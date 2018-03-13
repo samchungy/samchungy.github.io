@@ -47,3 +47,9 @@ com_crashlytics_export_strings.xml
 crashlytics.properties
 crashlytics-build.properties
 fabric.properties
+
+#Jerkyll
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
