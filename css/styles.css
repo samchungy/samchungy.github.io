@@ -5,6 +5,11 @@ body {
     text-align: center;
 }
 
+.menu-item{
+    display: inline-block;
+    padding-left: 20px;
+}
+
 h1{
     color: #b5b5b7;
 }
