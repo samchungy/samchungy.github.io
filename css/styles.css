@@ -5,9 +5,17 @@ body {
     text-align: center;
 }
 
-.menu-item{
+a:link, a:visited {
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
     display: inline-block;
-    padding-left: 20px;
+}
+
+a:hover, a:active {
+    color: white;
+    text-decoration: underline;
 }
 
 h1{
@@ -16,4 +24,34 @@ h1{
 
 h2{
     color: #f2b632;
+}
+
+button {
+    background-color: transparent;
+    border: 1px solid #f2b632;
+    text-decoration: none;
+    display: inline-block;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
+
+button:hover{
+    background-color: #f2b632;
+    border: 1px solid #f2b632;
+    text-decoration: none;
+    display: inline-block;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
+
+.menu-item{
+    display: inline-block;
+    padding-right: 15px;
+}
+
+.menu-item-active{
+    display: inline-block;
+    padding-right: 15px;
 }
