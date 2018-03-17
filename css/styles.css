@@ -3,9 +3,23 @@ body {
     background-color: #1d1f23;
     color: white;
     text-align: center;
+    line-height: 1.6;
 }
 
-a:link, a:visited {
+#main-title{
+    display: inline-block;
+    padding-right: 15px;
+}
+
+#social{
+    display: inline-block;
+}
+
+#social a:link, a:visited {
+    color: #f2b632;
+}
+
+button a:link, button a:visited {
     color: white;
     padding: 14px 25px;
     text-align: center;
