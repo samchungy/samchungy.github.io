@@ -1,9 +1,7 @@
 body {
-    font-family: 'Titillium Web', sans-serif;
     background-color: #1d1f23;
-    color: white;
-    text-align: center;
     line-height: 1.6;
+    color: white;
 }
 
 #main-title{
@@ -68,4 +66,24 @@ button:hover{
 .menu-item-active{
     display: inline-block;
     padding-right: 15px;
+    padding-bottom: 15px;
+}
+
+#me{
+    border-radius: 50%;
+    height: auto;
+    width: auto\9;
+    max-width: 40%;
+}
+
+.main-container{
+    text-align: center;
+}
+
+.main-container-2{
+    text-align: left;
+}
+
+.nav-bar{
+    text-align:center;
 }
