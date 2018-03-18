@@ -61,12 +61,17 @@ button:hover{
 .menu-item{
     display: inline-block;
     padding-right: 15px;
+    margin-bottom: 15px;
 }
 
 .menu-item-active{
     display: inline-block;
     padding-right: 15px;
-    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+.menu-item-active button a:link{
+    text-decoration: underline;
 }
 
 #me{
