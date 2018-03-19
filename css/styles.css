@@ -13,7 +13,7 @@ body {
     display: inline-block;
 }
 
-#social a:link, a:visited {
+a:link, a:visited {
     color: #f2b632;
 }
 
