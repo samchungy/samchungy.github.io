@@ -9,6 +9,10 @@ body {
     padding-right: 15px;
 }
 
+#main-title a:link{
+    text-decoration: none;
+}
+
 #social{
     display: inline-block;
 }
